@@ -1,5 +1,7 @@
 # GPU-switch
-A tool to switch MacBook Pro graphics cards and working methods
+A tool to switch MacBook Pro graphics cards and working methods (Mac os 11.3 or above).
+
+
 
 ![screenshot](media/image/screenshot.png)
 

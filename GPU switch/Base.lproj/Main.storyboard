@@ -675,6 +675,17 @@
                 </application>
                 <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="GPU_switch" customModuleProvider="target">
                     <connections>
+                        <outlet property="B_auto_out" destination="2YJ-ak-XWL" id="UcL-IM-Ecm"/>
+                        <outlet property="a_a" destination="y49-GN-Zoz" id="euV-qG-zQ6"/>
+                        <outlet property="a_d" destination="I5k-nt-791" id="hle-n0-6gV"/>
+                        <outlet property="a_i" destination="Qfq-Zg-Dkl" id="NxH-R5-Zqd"/>
+                        <outlet property="b_a" destination="2YJ-ak-XWL" id="0D2-UO-h15"/>
+                        <outlet property="b_a_out" destination="2YJ-ak-XWL" id="Smq-1v-jul"/>
+                        <outlet property="b_d" destination="f3F-bm-eJF" id="N2u-dU-9Wf"/>
+                        <outlet property="b_i" destination="XcQ-RG-zrt" id="SSP-Td-CxD"/>
+                        <outlet property="c_a" destination="4Xe-tX-ZfV" id="HV7-GZ-COV"/>
+                        <outlet property="c_d" destination="UVd-VO-T0S" id="gOF-q2-XVC"/>
+                        <outlet property="c_i" destination="00e-ib-HXA" id="wlq-82-GuV"/>
                         <outlet property="menu" destination="T63-L1-Qah" id="g5G-8v-eiG"/>
                     </connections>
                 </customObject>
@@ -682,7 +693,7 @@
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
                 <menu id="T63-L1-Qah">
                     <items>
-                        <menuItem title="GPU switch   v1.0" id="100-aC-4kI">
+                        <menuItem title="GPU switch   v1.1" id="100-aC-4kI">
                             <modifierMask key="keyEquivalentModifierMask"/>
                         </menuItem>
                         <menuItem title="Battery mode" id="VRI-gf-OlL">
@@ -704,7 +715,7 @@
                                     <menuItem title="Discrete" id="f3F-bm-eJF">
                                         <modifierMask key="keyEquivalentModifierMask"/>
                                         <connections>
-                                            <action selector="B_disc:" target="Voe-Tx-rLC" id="bXN-pH-ec1"/>
+                                            <action selector="B_disc:" target="Voe-Tx-rLC" id="P9B-kg-Gme"/>
                                         </connections>
                                     </menuItem>
                                 </items>
