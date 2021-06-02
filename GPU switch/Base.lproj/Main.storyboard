@@ -682,7 +682,7 @@
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
                 <menu id="T63-L1-Qah">
                     <items>
-                        <menuItem title="GPU switch" id="100-aC-4kI">
+                        <menuItem title="GPU switch   v1.0" id="100-aC-4kI">
                             <modifierMask key="keyEquivalentModifierMask"/>
                         </menuItem>
                         <menuItem title="Battery mode" id="VRI-gf-OlL">
@@ -767,6 +767,12 @@
                             </menu>
                             <connections>
                                 <action selector="testquit:" target="Voe-Tx-rLC" id="Unm-cj-O68"/>
+                            </connections>
+                        </menuItem>
+                        <menuItem title="Quit" id="Agd-GX-PNc">
+                            <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <action selector="quit:" target="Voe-Tx-rLC" id="Ah6-r8-TNS"/>
                             </connections>
                         </menuItem>
                     </items>

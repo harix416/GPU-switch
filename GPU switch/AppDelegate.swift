@@ -64,5 +64,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     @IBAction func A_disc(_ sender: Any) {
         NSAppleScript(source: "do shell script \"sudo pmset -a GPUSwitch 1\" with administrator privileges")!.executeAndReturnError(nil)
     }
+    @IBAction func quit(_ sender: Any) {
+        NSApplication.shared.terminate(self)
+    }
 }
 
